@@ -1,0 +1,1 @@
+duarouter --trip-files sirene_emergency_flowsDua.xml --net-file sirene.net.xml --output-file sirene_emergency.rou.xml --randomize-flows

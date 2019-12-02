@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<vehicles>
+
+<routeDistribution id="routedist1">
+        <!-- nur geradeaus-->
+        <route id="S10" edges="gneE20 gneE19"/>
+        <route id="S20" edges="gneE14 gneE15"/>
+        <route id="S30" edges="gneE23 gneE16"/>    
+        <route id="N10" edges="gneE12 gneE13"/>
+        <route id="N20" edges="gneE21 gneE22"/>
+        <route id="N30" edges="gneE24 gneE17"/>      
+        <route id="W30" edges="gneE27 gneE25 gneE18 gneE29"/>
+        <route id="O10" edges="gneE28 gneE10 gneE11 gneE26"/>
+        
+        <!-- erste rechts-->
+        <route id="S10r" edges="gneE20 gneE10 gneE11 gneE26"/>
+        <route id="S20r" edges="gneE14 gneE11 gneE26"/>
+        <route id="S30r" edges="gneE23 gneE26"/>    
+        <route id="N10r" edges="gneE12 gneE29"/>
+        <route id="N20r" edges="gneE21 gneE18 gneE29"/>
+        <route id="N30r" edges="gneE24 gneE25 gneE18 gneE29"/>      
+        <route id="W30r" edges="gneE27 gneE16"/>
+        <route id="O10r" edges="gneE28 gneE13"/>
+        
+        <!-- erste links-->
+        <route id="S10l" edges="gneE20 gneE29"/>
+        <route id="S20l" edges="gneE14 gneE18 gneE29"/>
+        <route id="S30l" edges="gneE23 gneE25 gneE18 gneE29"/>    
+        <route id="N10l" edges="gneE12 gneE10 gneE11 gneE26"/>
+        <route id="N20l" edges="gneE21 gneE11 gneE26"/>
+        <route id="N30l" edges="gneE24 gneE26"/>      
+        <route id="W30l" edges="gneE27 gneE16"/>
+        <route id="O10l" edges="gneE28 gneE19"/>
+        
+        <!-- zweite links und rechts -->
+        <route id="W30ml" edges="gneE27 gneE25 gneE15"/>
+        <route id="O10ml" edges="gneE28 gneE10 gneE22"/>
+        <route id="W30mr" edges="gneE27 gneE25 gneE22"/>
+        <route id="O10mr" edges="gneE28 gneE10 gneE15"/>
+</routeDistribution>
+
+<routeDistribution id="routedist2">
+        <!-- nur geradeaus-->
+        <route id="W30" edges="gneE27 gneE25 gneE18 gneE29"/>
+        <route id="O10" edges="gneE28 gneE10 gneE11 gneE26"/>
+        
+</routeDistribution>
+        
+  
+<flow id="pkw" color="1,1,0"  begin="0" end= "7200" vehsPerHour="2800" type="c" route="routedist1"/>
+</vehicles>

@@ -1,0 +1,22 @@
+***Starting server on port 49230 ***
+Loading net-file from 'very_simple_intersection\scenario\net.net.xml'... done (8ms).
+Loading additional-files from 'very_simple_intersection\scenario\vtypes.add.xml'... done (1ms).
+Loading done.
+Simulation version 1.3.1 started with time: 0.00
+Simulation ended at time: 3600.00
+Reason: TraCI requested termination.
+Performance: 
+ Duration: 417ms
+ Real time factor: 8633.09
+ UPS: 381.294964
+Vehicles: 
+ Inserted: 2
+ Running: 0
+ Waiting: 0
+Statistics (avg):
+ RouteLength: 992.71
+ Duration: 79.50
+ WaitingTime: 6.50
+ TimeLoss: 18.94
+ DepartDelay: 0.00
+

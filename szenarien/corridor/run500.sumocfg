@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="corridor500.net.xml"/>
+        <route-files value="corridor.flow.xml"/> <!--"traces/miv_140814_16_17.rou.xml"/--><!--,traces/vru_170216_17_18.rou.xml"/-->
+        <additional-files value="vtypes.add.xml"/>
+    </input>
+ 
+    <!--output>
+        <tripinfo-output value="tripinfos.xml"/>
+        <save-state.prefix value="state"/>
+        <fcd-output value="fcd.xml"/>
+        <fcd-output.geo value="true"/>
+        <fcd-output.signals value="true"/>	
+    </output--> 
+    
+    <report>
+        <duration-log.statistics value="true"/>
+        <no-step-log value="true"/>
+        <log value="log"/>
+    </report>
+    
+    <!--decals>
+        <decal filename="geoImage_fokr_small.png" centerX="306.85" centerY="207.01" centerZ="0.00" width="613.69" height="414.02" altitude="0.00" rotation="0.00" tilt="0.00" roll="0.00" layer="0.00" screenRelative="0"/>
+    </decals-->
+
+</configuration>

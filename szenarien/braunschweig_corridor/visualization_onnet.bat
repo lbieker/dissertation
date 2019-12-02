@@ -1,0 +1,1 @@
+sumo-gui -n sirene.net.xml --weight-files sirene_out_edgedata.xml --weight-attribute entered -b 3600 -e 7200

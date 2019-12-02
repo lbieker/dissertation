@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 12/05/18 10:14:14 by Eclipse SUMO netedit Version 1.0.1
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="sirene.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="sirene.net.xml"/>
+        <output.street-names value="true"/>
+    </output>
+
+    <processing>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+    </processing>
+
+    <junctions>
+        <no-internal-links value="false"/>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="true"/>
+    </pedestrian>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <poly id="Feuerwehr" type="Feuerwehr" color="242,130,29" fill="1" layer="128.00" shape="3441.460000,4452.450000 3527.440000,4382.910000 3588.640000,4461.050000 3498.360000,4526.790000 3441.460000,4452.450000"/>
+    <poly id="Einsatzort" color="red" fill="1" layer="128.00" shape="3232.330000,1879.500000 3270.280000,1826.950000 3346.180000,1869.280000 3312.610000,1923.290000 3233.790000,1878.040000"/>
+    <poly id="Klinikum" type="Krankenhaus" color="150,15,27" fill="1" layer="128.00" shape="2922.110000,4244.230000 2821.110000,4224.680000 2804.820000,4320.390000 2905.410000,4337.900000"/>
+    <poly id="KlinikumHol" type="Krankenhaus" color="150,15,27" fill="1" layer="128.00" shape="3105.570000,3262.480000 3140.960000,3262.480000 3140.520000,3285.770000 3105.570000,3285.770000 3105.130000,3369.550000 3178.600000,3368.650000 3179.040000,3183.630000 3105.570000,3183.180000"/>
+</additional>

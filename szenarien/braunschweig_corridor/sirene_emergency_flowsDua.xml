@@ -1,0 +1,40 @@
+<flows>
+	<vType id="Krankenwagen" vClass="emergency" guiShape="emergency" speedFactor="1.5"/>
+	<vType id="Feuerwehrfahrzeug" vClass="emergency" guiShape="firebrigade" speedFactor="1.5"/>
+    <interval begin="0" end="10800">
+        <flow id="Feuerwehr0" from="Feuerwehr_A" to="348909761#0" number="3" type="Feuerwehrfahrzeug"/>
+		<flow id="Feuerwehr1" from="Feuerwehr_A" to="gneE27" number="2" type="Feuerwehrfahrzeug"/>
+		<flow id="Feuerwehr2" from="Feuerwehr_A" to="-291313154" number="5" type="Feuerwehrfahrzeug"/>
+		<flow id="Feuerwehr3" from="Feuerwehr_A" to="gneE32" number="6" type="Feuerwehrfahrzeug"/>
+		<flow id="Feuerwehr4" from="Feuerwehr_A" to="385335099#0" number="5" type="Feuerwehrfahrzeug"/>
+		<flow id="Feuerwehr5" from="Feuerwehr_A" to="529421167#0.294" number="3" type="Feuerwehrfahrzeug"/>
+		<flow id="Feuerwehr6" from="Feuerwehr_A" to="8074215#6" number="2" type="Feuerwehrfahrzeug"/>
+		<flow id="Feuerwehr7" from="Feuerwehr_A" to="68327844#3" number="5" type="Feuerwehrfahrzeug"/>
+		<flow id="Feuerwehr8" from="Feuerwehr_A" to="gneE26" number="2" type="Feuerwehrfahrzeug"/>
+		<flow id="Klinikum0" from="Klinikum_A" to="-10517312#6" number="3" type="Krankenwagen"/>
+		<flow id="Klinikum1" from="Klinikum_A" to="-538699600" number="5" type="Krankenwagen"/>
+		<flow id="Klinikum2" from="Klinikum_A" to="8074412#1" number="3" type="Krankenwagen"/>
+		<flow id="Klinikum3" from="Klinikum_A" to="7975381#1" number="2" type="Krankenwagen"/>
+		<flow id="Klinikum4" from="Klinikum_A" to="-525353018#1" number="1" type="Krankenwagen"/>
+		<flow id="Klinikum5" from="Klinikum_A" to="5134764#0" number="5" type="Krankenwagen"/>
+		<flow id="Klinikum6" from="Klinikum_A" to="-384709617#1" number="4" type="Krankenwagen"/>
+		<flow id="Klinikum7" from="Klinikum_A" to="348909761#0" number="5" type="Krankenwagen"/>
+		<flow id="Klinikum8" from="Klinikum_A" to="gneE32" number="5" type="Krankenwagen"/>
+		<flow id="Johanniter0" from="Johanniter_A" to="gneE24" number="4" type="Krankenwagen"/>
+		<flow id="Johanniter1" from="Johanniter_A" to="8074213#2" number="2" type="Krankenwagen"/>
+		<flow id="Johanniter2" from="Johanniter_A" to="32020609#1" number="5" type="Krankenwagen"/>
+		<flow id="Johanniter3" from="Johanniter_A" to="gneE30" number="5" type="Krankenwagen"/>
+		<flow id="Johanniter4" from="Johanniter_A" to="gneE32" number="3" type="Krankenwagen"/>
+		<flow id="Johanniter5" from="Johanniter_A" to="68327844#3" number="5" type="Krankenwagen"/>
+		<flow id="Johanniter6" from="Johanniter_A" to="217362176#3" number="2" type="Krankenwagen"/>
+		<flow id="Johanniter7" from="Johanniter_A" to="9887598" number="5" type="Krankenwagen"/>
+		<flow id="KlinikumHol0" from="KlinikumHol_A" to="gneE9" number="5" type="Krankenwagen"/>
+		<flow id="KlinikumHol1" from="KlinikumHol_A" to="5140348" number="3" type="Krankenwagen"/>
+		<flow id="KlinikumHol2" from="KlinikumHol_A" to="-525353018#1" number="5" type="Krankenwagen"/>
+		<flow id="KlinikumHol3" from="KlinikumHol_A" to="387385476#1" number="2" type="Krankenwagen"/>
+		<flow id="KlinikumHol4" from="KlinikumHol_A" to="-384709617#1" number="5" type="Krankenwagen"/>
+		<flow id="KlinikumHol5" from="KlinikumHol_A" to="9891028#0" number="4" type="Krankenwagen"/>
+		<flow id="KlinikumHol6" from="KlinikumHol_A" to="217362176#3" number="5" type="Krankenwagen"/>
+		<flow id="KlinikumHol7" from="KlinikumHol_A" to="385335099#0" number="8" type="Krankenwagen"/>		
+    </interval>
+</flows>

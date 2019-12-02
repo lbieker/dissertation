@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 09/26/18 10:47:52 by Eclipse SUMO netconvert Version 1.0.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <type-files value="C:\Eclipse\Sumo\data\typemap\osmNetconvert.typ.xml,C:\Eclipse\Sumo\data\typemap\osmNetconvertUrbanDe.typ.xml,C:\Eclipse\Sumo\data\typemap\osmNetconvertPedestrians.typ.xml,C:\Eclipse\Sumo\data\typemap\osmNetconvertBicycle.typ.xml"/>
+        <osm-files value="D:\Sumo_Projekten\SIRENE\osm_bbox.osm.xml"/>
+    </input>
+
+    <output>
+        <output-file value="D:\Sumo_Projekten\SIRENE\sirene.net.xml"/>
+        <output.street-names value="true"/>
+        <output.original-names value="true"/>
+        <ptstop-output value="D:\Sumo_Projekten\SIRENE\sirene_stops.add.xml"/>
+        <ptline-output value="D:\Sumo_Projekten\SIRENE\sirene_ptlines.xml"/>
+    </output>
+
+    <projection>
+        <proj.utm value="true"/>
+    </projection>
+
+    <processing>
+        <geometry.remove value="true"/>
+        <roundabouts.guess value="true"/>
+    </processing>
+
+    <tls_building>
+        <tls.discard-simple value="true"/>
+        <tls.join value="true"/>
+        <tls.guess-signals value="true"/>
+        <tls.default-type value="actuated"/>
+    </tls_building>
+
+    <ramp_guessing>
+        <ramps.guess value="true"/>
+    </ramp_guessing>
+
+    <junctions>
+        <junctions.join value="true"/>
+        <junctions.corner-detail value="5"/>
+    </junctions>
+
+    <pedestrian>
+        <crossings.guess value="true"/>
+    </pedestrian>
+
+    <railway>
+        <railway.topology.repair value="true"/>
+    </railway>
+
+    <report>
+        <verbose value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <ptLine id="2" name="Tram 3: Weststadt =&gt; Volkmarode" line="3" type="tram" period="600" completeness="0.46">
+        <busStop id="59708192" name="Donauknoten"/>
+        <busStop id="59708130" name="Emsstraße"/>
+        <busStop id="3144419490" name="Am Jödebrunnen"/>
+        <busStop id="3144419491" name="Cyriaksring"/>
+        <busStop id="3144404371" name="Luisenstraße"/>
+    </ptLine>
+	<ptLine id="26" name="Tram 3: Volkmarode =&gt; Weststadt" line="3" type="tram" period="600" completeness="0.42">
+        <busStop id="52780772" name="Luisenstraße"/>
+        <busStop id="59708112" name="Cyriaksring"/>
+        <busStop id="59708124" name="Am Jödebrunnen"/>
+        <busStop id="59708131" name="Emsstraße"/>
+    </ptLine>
+    <ptLine id="25" name="Tram 5: Broitzem =&gt; Hauptbahnhof" line="5" type="tram" period="600" completeness="0.58">
+        <busStop id="59708192" name="Donauknoten"/>
+        <busStop id="59708130" name="Emsstraße"/>
+        <busStop id="3144419490" name="Am Jödebrunnen"/>
+        <busStop id="3144419491" name="Cyriaksring"/>
+        <busStop id="3144404371" name="Luisenstraße"/>
+    </ptLine>
+	<ptLine id="24" name="Tram 5: Hauptbahnhof =&gt; Broitzem" line="5" type="tram" period="600" completeness="0.58">
+        <busStop id="52780772" name="Luisenstraße"/>
+        <busStop id="59708112" name="Cyriaksring"/>
+        <busStop id="59708124" name="Am Jödebrunnen"/>
+        <busStop id="59708131" name="Emsstraße"/>
+    </ptLine>
+    <ptLine id="3" name="Tram 1: Stöckheim =&gt; Wenden" line="1" type="tram" period="600" completeness="0.29">
+        <busStop id="3239586760" name="Mühlenpfordtstraße"/>
+        <busStop id="655300197" name="Hamburger Straße"/>
+        <busStop id="3239586704" name="Ludwigstraße"/>
+        <busStop id="2166464260" name="Schützenplatz"/>
+    </ptLine>
+	<ptLine id="23" name="Tram 1: Wenden =&gt; Stöckheim" line="1" type="tram" period="600" completeness="0.29">
+        <busStop id="3160041332" name="Schützenplatz"/>
+        <busStop id="3239586703" name="Ludwigstraße"/>
+        <busStop id="3239587396" name="Hamburger Straße"/>
+        <busStop id="3239586757" name="Mühlenpfordtstraße"/>
+    </ptLine>
+    <ptLine id="4" name="Tram 2: Siegfriedviertel =&gt; Heidberg (über Leisewitzstraße)" line="2" type="tram" period="900" completeness="0.59">
+        <busStop id="3160041332" name="Schützenplatz"/>
+        <busStop id="3239586703" name="Ludwigstraße"/>
+        <busStop id="3239587396" name="Hamburger Straße"/>
+        <busStop id="3239586757" name="Mühlenpfordtstraße"/>
+    </ptLine>
+	<ptLine id="21" name="Tram 2: Heidberg =&gt; Siegfriedviertel (über Leisewitzstraße)" line="2" type="tram" period="900" completeness="0.59">
+        <busStop id="3239586760" name="Mühlenpfordtstraße"/>
+        <busStop id="655300197" name="Hamburger Straße"/>
+        <busStop id="3239586704" name="Ludwigstraße"/>
+        <busStop id="2166464260" name="Schützenplatz"/>
+    </ptLine>
+    <ptLine id="0" name="Bus 419: Hauptbahnhof =&gt; Hauptbahnhof" line="419" type="bus" period="600" completeness="0.37">
+        <busStop id="busStop_577566285_2_55" name="ini_end"/>
+		<busStop id="3887568676" name="Hamburger Straße (Steig D)"/>
+        <busStop id="4578931503" name="Maschplatz"/>
+        <busStop id="2708626053" name="Amalienplatz Weißes Ross"/>
+        <busStop id="337766463" name="Rudolfplatz"/>
+        <busStop id="367891514" name="Kälberwiese"/>
+        <busStop id="367891393" name="Maienstraße"/>
+        <busStop id="3794742895" name="Madamenweg"/>
+        <busStop id="5624015120" name="Johannes-Selenka-Platz"/>
+        <busStop id="369313965" name="Cyriaksring"/>
+    </ptLine>
+	<ptLine id="8" name="Bus 429: Hauptbahnhof =&gt; Hauptbahnhof" line="429" type="bus" period="600" completeness="0.16">
+        <busStop id="272855681" name="Cyriaksring"/>
+		<busStop id="80131267" name="Johannes-Selenka-Platz"/>
+		<busStop id="3794742894" name="Madamenweg"/>
+		<busStop id="367891451" name="Maienstraße"/>
+		<busStop id="367891520" name="Kälberwiese"/>
+		<busStop id="337770114" name="Rudolfplatz"/>
+		<busStop id="251044906" name="Amalienplatz Weißes Ross"/>
+		<busStop id="5509491267" name="Hamburger Straße"/>
+		<busStop id="busStop_-577566285_2_56" name="ini_end"/>
+    </ptLine>
+	<ptLine id="5" name="Bus 461: Hauptbahnhof =&gt; PTB" line="461" type="bus" period="1800" completeness="0.55">
+        <busStop id="272855681" name="Cyriaksring"/>
+        <busStop id="80131267" name="Johannes-Selenka-Platz"/>
+        <busStop id="3794742894" name="Madamenweg"/>
+        <busStop id="367891451" name="Maienstraße"/>
+        <busStop id="367891520" name="Kälberwiese"/>
+        <busStop id="1204082952" name="Hildesheimer Straße"/>
+        <busStop id="-763361137" name="Ottweilerstraße"/>
+    </ptLine>
+	<ptLine id="59" name="Bus 461: PTB =&gt; Hauptbahnhof" line="461" type="bus" period="1800" completeness="0.57">
+        <busStop id="763361046" name="Ottweilerstraße"/>
+        <busStop id="335750625" name="Hildesheimer Straße"/>
+        <busStop id="337766463" name="Rudolfplatz"/>
+        <busStop id="367891514" name="Kälberwiese"/>
+        <busStop id="367891393" name="Maienstraße"/>
+        <busStop id="3794742895" name="Madamenweg"/>
+        <busStop id="5624015120" name="Johannes-Selenka-Platz"/>
+        <busStop id="369313965" name="Cyriaksring"/>
+    </ptLine>
+    <ptLine id="9" name="Bus 433: Völkenrode =&gt; Hondelage" line="433" type="bus" period="1800" completeness="0.16">
+        <busStop id="763361046" name="Ottweilerstraße"/>
+		<busStop id="335750625" name="Hildesheimer Straße"/>
+		<busStop id="337770114" name="Rudolfplatz"/>
+		<busStop id="251044906" name="Amalienplatz Weißes Ross"/>
+		<busStop id="5509491267" name="Hamburger Straße"/>
+		<busStop id="busStop_-577566285_2_56" name="ini_end"/>
+    </ptLine>
+	<ptLine id="51" name="Bus 433: Hondelage =&gt; Völkenrode" line="433" type="bus" period="1800" completeness="0.16">
+        <busStop id="busStop_577566285_2_55" name="ini_end"/>
+		<busStop id="3887568676" name="Hamburger Straße (Steig D)"/>
+        <busStop id="4578931503" name="Maschplatz"/>
+        <busStop id="2708626053" name="Amalienplatz Weißes Ross"/>
+        <busStop id="337767290" name="Rudolfplatz"/>
+        <busStop id="1204082952" name="Hildesheimer Straße"/>
+        <busStop id="-763361137" name="Ottweilerstraße"/>
+    </ptLine>
+    <ptLine id="10" name="Bus 422: Lehndorf =&gt; Bebelhof" line="422" type="bus" period="1800" completeness="0.47">
+        <busStop id="4420461456" name="Hermannstraße (Steig A)"/>
+        <busStop id="337766463" name="Rudolfplatz"/>
+        <busStop id="367891514" name="Kälberwiese"/>
+        <busStop id="-4071760550" name="Maienstraße"/>
+        <busStop id="-2381056723" name="Tuckermannstraße"/>
+    </ptLine>
+	<ptLine id="50" name="Bus 422: Bebelhof =&gt; Lehndorf" line="422" type="bus" period="1800" completeness="0.52">
+        <busStop id="4420461459" name="Tuckermannstraße"/>
+        <busStop id="367891451" name="Maienstraße"/>
+        <busStop id="367891520" name="Kälberwiese"/>
+        <busStop id="337769798" name="Rudolfplatz"/>
+        <busStop id="-1484563060" name="Hermannstraße (Steig B)"/>
+    </ptLine>
+    <ptLine id="11" name="Bus 450: Braunschweig Rathaus =&gt; Vechelde" line="450" type="bus" period="1800" completeness="0.50">
+        <busStop id="3790696287" name="Maschstraße"/>
+        <busStop id="2708626053" name="Amalienplatz Weißes Ross"/>
+        <busStop id="337767290" name="Rudolfplatz"/>
+        <busStop id="1204082952" name="Hildesheimer Straße"/>
+        <busStop id="241780363" name="Luftstraße"/>
+    </ptLine>
+    <ptLine id="12" name="Bus 450: Vechelde =&gt; Braunschweig Rathaus" line="450" type="bus" period="1800" completeness="0.46">
+        <busStop id="-4319427728" name="Luftstraße"/>
+        <busStop id="335750625" name="Hildesheimer Straße"/>
+        <busStop id="337770114" name="Rudolfplatz"/>
+        <busStop id="251044916" name="Amalienplatz Weißes Ross"/>
+        <busStop id="1223820160" name="Maschstraße"/>
+    </ptLine>
+    <ptLine id="19" name="Bus 480: Braunschweig Rathaus =&gt; Groß Schwülper" line="480" type="bus" period="3600" completeness="0.45">
+        <busStop id="3790696287" name="Maschstraße"/>
+        <busStop id="4089838969" name="Amalienplatz Weißes Ross"/>
+        <busStop id="2304877704" name="Klinikum Celler Straße"/>
+        <busStop id="2304877706" name="Bei dem Gerichte"/>
+    </ptLine>
+	<ptLine id="47" name="Bus 480: Groß Schwülper =&gt; Braunschweig Rathaus" line="480" type="bus" period="3600" completeness="0.48">
+        <busStop id="90582729" name="Bei dem Gerichte"/>
+        <busStop id="3775597857" name="Klinikum Celler Straße"/>
+        <busStop id="251044916" name="Amalienplatz Weißes Ross"/>
+        <busStop id="1223820160" name="Maschstraße"/>
+    </ptLine>
+	<ptLine id="27" name="Bus 416: Völkenrode =&gt; Kralenriede" line="416" type="bus" period="900" completeness="0.39">
+        <busStop id="2304877708" name="Varrentrappstraße"/>
+        <busStop id="90582729" name="Bei dem Gerichte"/>
+        <busStop id="3775597857" name="Klinikum Celler Straße"/>
+        <busStop id="251044916" name="Amalienplatz Weißes Ross"/>
+        <busStop id="1223820160" name="Maschstraße"/>
+    </ptLine>
+    <ptLine id="28" name="Bus 416: Kralenriede =&gt; Völkenrode" line="416" type="bus" period="900" completeness="0.37">
+        <busStop id="3790696287" name="Maschstraße"/>
+        <busStop id="4089838969" name="Amalienplatz Weißes Ross"/>
+        <busStop id="2304877704" name="Klinikum Celler Straße"/>
+        <busStop id="2304877706" name="Bei dem Gerichte"/>
+        <busStop id="-2304877707" name="Varrentrappstraße"/>
+    </ptLine>
+    <ptLine id="33" name="Bus 560: Wipshausen =&gt; Braunschweig Rathaus" line="560" type="bus" period="3600" completeness="0.36">
+        <busStop id="763361046" name="Ottweilerstraße"/>
+        <busStop id="335750625" name="Hildesheimer Straße"/>
+        <busStop id="337770114" name="Rudolfplatz"/>
+        <busStop id="251044916" name="Amalienplatz Weißes Ross"/>
+        <busStop id="1223820160" name="Maschstraße"/>
+    </ptLine>
+	<ptLine id="45" name="Bus 560: Braunschweig Rathaus =&gt; Wipshausen" line="560" type="bus" period="3600" completeness="0.31">
+        <busStop id="3790696287" name="Maschstraße"/>
+        <busStop id="2708626053" name="Amalienplatz Weißes Ross"/>
+        <busStop id="337767290" name="Rudolfplatz"/>
+		<busStop id="1204082952" name="Hildesheimer Straße"/>
+		<busStop id="-763361137" name="Ottweilerstraße"/>
+    </ptLine>
+	<ptLine id="38" name="Bus 411: Lamme =&gt; Südstadt" line="411" type="bus" period="1800" completeness="0.32">
+        <busStop id="763361046" name="Ottweilerstraße"/>
+        <busStop id="335750625" name="Hildesheimer Straße"/>
+        <busStop id="337767975" name="Rudolfplatz"/>
+        <busStop id="335751922" name="Petristraße"/>
+        <busStop id="1223820160" name="Maschstraße"/>
+    </ptLine>
+    <ptLine id="40" name="Bus 411: Südstadt =&gt; Lamme" line="411" type="bus" period="1800" completeness="0.20">
+        <busStop id="3790696287" name="Maschstraße"/>
+        <busStop id="335752012" name="Petristraße"/>
+		<busStop id="337767976" name="Rudolfplatz"/>
+		<busStop id="1204082952" name="Hildesheimer Straße"/>
+		<busStop id="-763361137" name="Ottweilerstraße"/>
+	</ptLine>
+    <ptLine id="48" name="Bus 418: Lamme =&gt; Riddagshausen" line="418" type="bus" period="1800" completeness="0.38">
+        <busStop id="-1021653972" name="Pfingststraße"/>
+        <busStop id="-492080041" name="Madamenweg"/>
+        <busStop id="4420481309" name="Goslarsche Straße"/>
+    </ptLine>
+    <ptLine id="49" name="Bus 418: Riddagshausen =&gt; Lamme" line="418" type="bus" period="1800" completeness="0.39">
+        <busStop id="-822623518" name="Goslarsche Straße"/>
+        <busStop id="-335811606" name="Madamenweg"/>
+        <busStop id="4451891810" name="Pfingststraße"/>
+    </ptLine>
+    <ptLine id="63" name="Bus 443: Donauknoten =&gt; Querum" line="443" type="bus" period="1800" completeness="0.35">
+        <busStop id="272855681" name="Cyriaksring"/>
+        <busStop id="80131267" name="Johannes-Selenka-Platz"/>
+        <busStop id="3794742894" name="Madamenweg"/>
+        <busStop id="4420481309" name="Goslarsche Straße"/>
+    </ptLine>
+    <ptLine id="64" name="Bus 443: Querum =&gt; Donauknoten" line="443" type="bus" period="1800" completeness="0.32">
+        <busStop id="-822623518" name="Goslarsche Straße"/>
+        <busStop id="3794742895" name="Madamenweg"/>
+		<busStop id="5624015120" name="Johannes-Selenka-Platz"/>
+        <busStop id="369313965" name="Cyriaksring"/>
+    </ptLine>
+</additional>

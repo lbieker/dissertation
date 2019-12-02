@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 08.10.2019 14:55:07 by Eclipse SUMO GUI Version 1.3.1
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="sirene.net.xml"/>
+        <route-files value="sirene_pt.rou.xml,sirene.motorcycle.trips.xml,sirene.bicycle.trips.xml,sirene.pedestrian.rou.xml,sirene_emergency.rou.xml"/>
+        <additional-files value="sirene_pois.add.xml,sirene_stops.add.xml,sirene_routes_lkw.xml,sirene_routes_pkw.xml,sirene_flows_lkw.xml,sirene_flows_pkw.xml,sirene_add_edgedata.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="sirene_out_tripinfo.xml"/>
+    </output>
+
+    <processing>
+        <ignore-route-errors value="true"/>
+    </processing>
+
+    <routing>
+        <device.rerouting.adaptation-steps value="180"/>
+    </routing>
+
+    <report>
+        <verbose value="true"/>
+        <duration-log.statistics value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <gui_only>
+        <gui-settings-file value="sirene.view.xml"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<tripinfos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/tripinfo_file.xsd">
+</tripinfos>

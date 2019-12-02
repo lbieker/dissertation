@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 13.03.2019 08:35:27 by Eclipse SUMO netedit Version UNKNOWN
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="net.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="net.net.xml"/>
+    </output>
+
+    <processing>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="false"/>
+    </pedestrian>
+
+    <visualisation>
+        <registry-viewport value="true"/>
+    </visualisation>
+
+</configuration>
+-->
+
+
+<vehicles>
+
+<routeDistribution id="routedist1">
+        <!-- nur geradeaus-->
+    <route id="route_0" edges="A3B3 B3C3 C3D3 D3E3" color="blue"/>
+    <route id="route_1" edges="A2B2 B2C2 C2D2 D2E2" color="blue"/>
+    <route id="route_10" edges="C4C3 C3C2 C2C1 C1C0" color="blue"/>
+    <route id="route_11" edges="D3D2 D2D1 D1D0" color="blue"/>
+    <route id="route_2" edges="A1B1 B1C1 C1D1 D1E1" color="blue"/>
+    <route id="route_3" edges="B0B1 B1B2 B2B3 B3B4" color="blue"/>
+    <route id="route_4" edges="C0C1 C1C2 C2C3 C3C4" color="blue"/>
+    <route id="route_5" edges="D0D1 D1D2 D2D3 D3D4" color="blue"/>
+    <route id="route_6" edges="E3D3 D3C3 C3B3 B3A3" color="blue"/>
+    <route id="route_7" edges="E2D2 D2C2 C2B2 B2A2" color="blue"/>
+    <route id="route_8" edges="E1D1 D1C1 C1B1 B1A1" color="blue"/>
+    <route id="route_9" edges="B4B3 B3B2 B2B1 B1B0" color="blue"/>
+        
+        <!-- rechts-->
+    <route id="r_route_0" edges="A3B3 B3B2 B2B1 B1B0" color="blue"/>
+    <route id="r_route_1" edges="A3B3 B3C3 C3C2 C2C1 C1C0" color="blue"/>
+    <route id="r_route_10" edges="B0B1 B1B2 B2C2 C2D2 D2E2" color="blue"/>
+    <route id="r_route_11" edges="B0B1 B1B2 B2B3 B3C3 C3D3 D3E3" color="blue"/>
+    <route id="r_route_12" edges="C0C1 C1D1 D1E1" color="blue"/>
+    <route id="r_route_13" edges="C0C1 C1C2 C2D2 D2E2" color="blue"/>
+    <route id="r_route_14" edges="C0C1 C1C2 C2C3 C3D3 D3E3" color="blue"/>
+    <route id="r_route_15" edges="D0D1 D1E1" color="blue"/>
+    <route id="r_route_16" edges="D0D1 D1D2 D2E2" color="blue"/>
+    <route id="r_route_17" edges="D0D1 D1D2 D2D3 D3E3" color="blue"/>
+    <route id="r_route_18" edges="E1D1 D1D2 D2D3 D3D4" color="blue"/>
+    <route id="r_route_19" edges="E1D1 D1C1 C1C2 C2C3 C3C4" color="blue"/>
+    <route id="r_route_2" edges="A3B3 B3C3 C3D3 D3D2 D2D1 D1D0" color="blue"/>
+    <route id="r_route_20" edges="E1D1 D1C1 C1B1 B1B2 B2B3 B3B4" color="blue"/>
+    <route id="r_route_21" edges="E2D2 D2D3 D3D4" color="blue"/>
+    <route id="r_route_22" edges="E2D2 D2C2 C2C3 C3C4" color="blue"/>
+    <route id="r_route_23" edges="E2D2 D2C2 C2B2 B2B3 B3B4" color="blue"/>
+    <route id="r_route_24" edges="E3D3 D3D4" color="blue"/>
+    <route id="r_route_25" edges="E3D3 D3C3 C3C4" color="blue"/>
+    <route id="r_route_26" edges="E3D3 D3C3 C3B3 B3B4" color="blue"/>
+    <route id="r_route_27" edges="D4D3 D3C3 C3B3 B3A3" color="blue"/>
+    <route id="r_route_28" edges="D4D3 D3D2 D2C2 C2B2 B2A2" color="blue"/>
+    <route id="r_route_29" edges="D4D3 D3D2 D2D1 D1C1 C1B1 B1A1" color="blue"/>
+    <route id="r_route_3" edges="A2B2 B2B1 B1B0" color="blue"/>
+    <route id="r_route_30" edges="C4C3 C3B3 B3A3" color="blue"/>
+    <route id="r_route_31" edges="C4C3 C3C2 C2B2 B2A2" color="blue"/>
+    <route id="r_route_32" edges="C4C3 C3C2 C2C1 C1B1 B1A1" color="blue"/>
+    <route id="r_route_33" edges="B4B3 B3A3" color="blue"/>
+    <route id="r_route_34" edges="B4B3 B3B2 B2A2" color="blue"/>
+    <route id="r_route_35" edges="B4B3 B3B2 B2B1 B1A1" color="blue"/>
+    <route id="r_route_4" edges="A2B2 B2C2 C2C1 C1C0" color="blue"/>
+    <route id="r_route_5" edges="A2B2 B2C2 C2D2 D2D1 D1D0" color="blue"/>
+    <route id="r_route_6" edges="A1B1 B1B0" color="blue"/>
+    <route id="r_route_7" edges="A1B1 B1C1 C1C0" color="blue"/>
+    <route id="r_route_8" edges="A1B1 B1C1 C1D1 D1D0" color="blue"/>
+    <route id="r_route_9" edges="B0B1 B1C1 C1D1 D1E1" color="blue"/>
+        
+        <!--  links-->
+    <route id="l_route_0" edges="A3B3 B3B4" color="blue"/>
+    <route id="l_route_1" edges="A3B3 B3C3 C3C4" color="blue"/>
+    <route id="l_route_10" edges="B0B1 B1B2 B2A2" color="blue"/>
+    <route id="l_route_11" edges="B0B1 B1B2 B2B3 B3A3" color="blue"/>
+    <route id="l_route_12" edges="C0C1 C1B1 B1A1" color="blue"/>
+    <route id="l_route_13" edges="C0C1 C1C2 C2B2 B2A2" color="blue"/>
+    <route id="l_route_14" edges="C0C1 C1C2 C2C3 C3B3 B3A3" color="blue"/>
+    <route id="l_route_15" edges="D0D1 D1C1 C1B1 B1A1" color="blue"/>
+    <route id="l_route_16" edges="D0D1 D1D2 D2C2 C2B2 B2A2" color="blue"/>
+    <route id="l_route_17" edges="D0D1 D1D2 D2D3 D3C3 C3B3 B3A3" color="blue"/>
+    <route id="l_route_18" edges="E3D3 D3D2 D2D1 D1D0" color="blue"/>
+    <route id="l_route_19" edges="E3D3 D3C3 C3C2 C2C1 C1C0" color="blue"/>
+    <route id="l_route_2" edges="A3B3 B3C3 C3D3 D3D4" color="blue"/>
+    <route id="l_route_20" edges="E3D3 D3C3 C3B3 B3B2 B2B1 B1B0" color="blue"/>
+    <route id="l_route_21" edges="E2D2 D2D1 D1D0" color="blue"/>
+    <route id="l_route_22" edges="E2D2 D2C2 C2C1 C1C0" color="blue"/>
+    <route id="l_route_23" edges="E1D1 D1D0" color="blue"/>
+    <route id="l_route_24" edges="E1D1 D1C1 C1C0" color="blue"/>
+    <route id="l_route_25" edges="E1D1 D1C1 C1B1 B1B0" color="blue"/>
+    <route id="l_route_26" edges="B4B3 B3C3 C3D3 D3E3" color="blue"/>
+    <route id="l_route_27" edges="B4B3 B3B2 B2C2 C2D2 D2E2" color="blue"/>
+    <route id="l_route_28" edges="B4B3 B3B2 B2B1 B1C1 C1D1 D1E1" color="blue"/>
+    <route id="l_route_29" edges="C4C3 C3D3 D3E3" color="blue"/>
+    <route id="l_route_3" edges="A2B2 B2B3 B3B4" color="blue"/>
+    <route id="l_route_30" edges="C4C3 C3C2 C2D2 D2E2" color="blue"/>
+    <route id="l_route_31" edges="C4C3 C3C2 C2C1 C1D1 D1E1" color="blue"/>
+    <route id="l_route_32" edges="D4D3 D3E3" color="blue"/>
+    <route id="l_route_33" edges="D4D3 D3D2 D2E2" color="blue"/>
+    <route id="l_route_34" edges="D4D3 D3D2 D2D1 D1E1" color="blue"/>
+    <route id="l_route_4" edges="A2B2 B2C2 C2C3 C3C4" color="blue"/>
+    <route id="l_route_5" edges="A2B2 B2C2 C2D2 D2D3 D3D4" color="blue"/>
+    <route id="l_route_6" edges="A1B1 B1B2 B2B3 B3B4" color="blue"/>
+    <route id="l_route_7" edges="A1B1 B1C1 C1C2 C2C3 C3C4" color="blue"/>
+    <route id="l_route_8" edges="A1B1 B1C1 C1D1 D1D2 D2D3 D3D4" color="blue"/>
+    <route id="l_route_9" edges="B0B1 B1A1" color="blue"/>
+        
+
+</routeDistribution>
+
+<routeDistribution id="routedist2">
+        <!-- nur geradeaus-->
+    <route id="route_0" edges="A3B3 B3C3 C3D3 D3E3" color="blue"/>
+    <route id="route_1" edges="A2B2 B2C2 C2D2 D2E2" color="blue"/>
+    <route id="route_10" edges="C4C3 C3C2 C2C1 C1C0" color="blue"/>
+    <route id="route_11" edges="D3D2 D2D1 D1D0" color="blue"/>
+    <route id="route_2" edges="A1B1 B1C1 C1D1 D1E1" color="blue"/>
+    <route id="route_3" edges="B0B1 B1B2 B2B3 B3B4" color="blue"/>
+    <route id="route_4" edges="C0C1 C1C2 C2C3 C3C4" color="blue"/>
+    <route id="route_5" edges="D0D1 D1D2 D2D3 D3D4" color="blue"/>
+    <route id="route_6" edges="E3D3 D3C3 C3B3 B3A3" color="blue"/>
+    <route id="route_7" edges="E2D2 D2C2 C2B2 B2A2" color="blue"/>
+    <route id="route_8" edges="E1D1 D1C1 C1B1 B1A1" color="blue"/>
+    <route id="route_9" edges="B4B3 B3B2 B2B1 B1B0" color="blue"/>        
+</routeDistribution>
+        
+  
+<flow id="pkw" color="1,1,0"  begin="0" end= "7200" vehsPerHour="5200" type="c" route="routedist1"/>
+</vehicles>

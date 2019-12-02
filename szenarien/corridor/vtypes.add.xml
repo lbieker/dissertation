@@ -1,0 +1,10 @@
+<add>
+    <vType id="c" vClass="passenger" speedDev="0.1" carFollowModel="Krauss"/>
+    <vType id="e" vClass="emergency" speedDev="0.1" speedFactor="1.2" carFollowModel="Krauss" guiShape="emergency" /> 
+    <vType id="t" vClass="truck" speedDev="0.1"/>
+    <vType id="b" vClass="bicycle" speedDev="0.2" length="3"/>
+    <vType id="p" vClass="pedestrian" speedDev="0.1"/>
+    <timedEvent type="SaveTLSSwitchStates" source="gneJ10" dest="tls_state.xml"/>
+    <timedEvent type="SaveTLSSwitchStates" source="gneJ11" dest="tls_state.xml"/>
+    <timedEvent type="SaveTLSSwitchStates" source="gneJ12" dest="tls_state.xml"/>
+</add>

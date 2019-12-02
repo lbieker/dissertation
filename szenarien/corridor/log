@@ -1,0 +1,22 @@
+***Starting server on port 52536 ***
+Loading net-file from 'corridor\corridor500.net.xml'... done (10ms).
+Loading additional-files from 'corridor\vtypes.add.xml'... done (3ms).
+Loading done.
+Simulation version 1.3.1 started with time: 0.00
+Simulation ended at time: 3600.00
+Reason: TraCI requested termination.
+Performance: 
+ Duration: 2469ms
+ Real time factor: 1458.08
+ UPS: 252031.186715
+Vehicles: 
+ Inserted: 2800 (Loaded: 2801)
+ Running: 218
+ Waiting: 1
+Statistics (avg):
+ RouteLength: 1353.02
+ Duration: 221.83
+ WaitingTime: 75.49
+ TimeLoss: 123.04
+ DepartDelay: -0.14
+

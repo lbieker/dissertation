@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 11/26/18 15:58:41 by Eclipse SUMO netedit Version 1.0.1
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="D:\Laura\SIRENE\sirene.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="D:\Laura\SIRENE\sirene.net.xml"/>
+        <output.street-names value="true"/>
+    </output>
+
+    <processing>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+    </processing>
+
+    <junctions>
+        <no-internal-links value="false"/>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="true"/>
+    </pedestrian>
+
+    <visualisation>
+        <registry-viewport value="true"/>
+    </visualisation>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <busStop id="-1021653972" name="Pfingststraße" lane="-8074215#8_1" friendlyPos="1" lines="418" startPos="29.18" endPos="44.18"/>
+    <busStop id="-1484563060" name="Hermannstraße (Steig B)" lane="-367772443#2_1" friendlyPos="1" lines="422" startPos="130.53" endPos="145.58"/>
+    <busStop id="-2304877707" name="Varrentrappstraße" lane="-30426838#3_1" friendlyPos="1" lines="416" startPos="24.80" endPos="39.80">
+        <access lane="-30426838#3_0" pos="26.85"/>
+    </busStop>
+    <busStop id="-2381056723" name="Tuckermannstraße" lane="gneE26_1" lines="422" startPos="39.76" endPos="49.76"/>
+    <busStop id="-335811606" name="Madamenweg" lane="-8078963#7_2" friendlyPos="1" lines="418" startPos="132.68" endPos="147.68">
+        <access lane="-8078963#7_0" pos="142.89"/>
+    </busStop>
+    <busStop id="-4071760550" name="Maienstraße" lane="-103495995#0_1" friendlyPos="1" lines="422" startPos="22.11" endPos="37.11">
+        <access lane="-103495995#0_0" pos="31.55"/>
+    </busStop>
+    <busStop id="-4319427728" name="Luftstraße" lane="-32020609#1_2" friendlyPos="1" lines="450" startPos="8.90" endPos="23.90"/>
+    <busStop id="-492080041" name="Madamenweg" lane="-8074215#2_1" friendlyPos="1" lines="418" startPos="0.00" endPos="15.00">
+        <access lane="-8074215#2_0" pos="9.29"/>
+    </busStop>
+    <busStop id="-763361137" name="Ottweilerstrasse" lane="-291313154_2" lines="461 560 433 411" startPos="105.99" endPos="115.99">
+        <access lane="-291313154_0" pos="106.27"/>
+    </busStop>
+    <busStop id="-822623518" name="Goslarsche Straße" lane="-106531547#0_2" lines="418 443" startPos="20.01" endPos="30.01">
+        <access lane="-106531547#0_0" pos="20.84"/>
+    </busStop>
+    <busStop id="1204082952" name="Hildesheimer Straße" lane="10522141#3_2" friendlyPos="1" lines="461 450 433 560 411" startPos="5.00" endPos="20.00">
+        <access lane="10522141#3_0" pos="13.47"/>
+    </busStop>
+    <busStop id="1223820160" name="Maschstraße" lane="375727027#0_2" lines="450 411 416 480 560" startPos="56.07" endPos="66.07">
+        <access lane="375727027#0_0" pos="59.34"/>
+    </busStop>
+    <busStop id="2166464260" name="Schützenplatz" lane="6144278#21_0" friendlyPos="1" lines="1 2" startPos="170.30" endPos="190.30">
+        <access lane="24692541#2_0" pos="193.61"/>
+        <access lane="207441375#5_0" pos="104.60"/>
+    </busStop>
+    <busStop id="2304877704" name="Klinikum Celler Straße" lane="374169546#7_2" friendlyPos="1" lines="480 416" startPos="6.93" endPos="21.93">
+        <access lane="374169546#7_0" pos="17.35"/>
+    </busStop>
+    <busStop id="2304877706" name="Bei dem Gerichte" lane="10522108#3_2" friendlyPos="1" lines="480 416" startPos="18.76" endPos="33.76"/>
+    <busStop id="2304877708" name="Varrentrappstraße" lane="277665454#2_2" friendlyPos="1" lines="416" startPos="10.77" endPos="25.77"/>
+    <busStop id="241780363" name="Luftstraße" lane="32020609#1_0" lines="450" startPos="198.54" endPos="208.54">
+        <access lane="-32020609#1_0" pos="8.57"/>
+    </busStop>
+    <busStop id="251044906" name="Amalienplatz Weißes Ross" lane="299910129#2_2" friendlyPos="1" lines="433" startPos="9.43" endPos="20.00">
+        <access lane="299910129#2_0" pos="14.03"/>
+    </busStop>
+    <busStop id="251044916" name="Amalienplatz Weißes Ross" lane="83723985#2_2" friendlyPos="1" lines="450 416 560 480" startPos="9.87" endPos="20.88">
+        <access lane="83723985#2_0" pos="16.19"/>
+    </busStop>
+    <busStop id="2708626053" name="Amalienplatz Weißes Ross" lane="48861560#2_2" friendlyPos="1" lines="419 450 560 433" startPos="17.80" endPos="32.80">
+        <access lane="48861560#2_0" pos="21.93"/>
+    </busStop>
+    <busStop id="272855681" name="Cyriaksring" lane="385335098#0_2" lines="429 443 461" startPos="15.20" endPos="25.20"/>
+    <busStop id="272855783" name="Luisenstraße" lane="10231578#3_2" friendlyPos="1" lines="461" startPos="23.39" endPos="38.39">
+        <access length="3" lane="10231578#3_0" pos="28.75"/>
+    </busStop>
+    <busStop id="272855846" name="Luisenstraße" lane="68327844#3_2" friendlyPos="1" lines="461" startPos="114.88" endPos="129.88">
+        <access length="3" lane="68327844#3_0" pos="120.07"/>
+    </busStop>
+    <busStop id="3144404371" name="Luisenstraße" lane="309122505#13_0" friendlyPos="1" lines="3 5" startPos="138.90" endPos="158.20">
+        <access length="15" lane="68327844#3_0" pos="138.92"/>
+        <access length="15" lane="10231578#3_0" pos="7.40"/>
+    </busStop>
+    <busStop id="3144419490" name="Am Jödebrunnen" lane="309123999#2_0" friendlyPos="1" lines="3 5" startPos="25.00" endPos="45.00"/>
+    <busStop id="3144419491" name="Cyriaksring" lane="309122505#3_0" friendlyPos="1" lines="3 5" startPos="190.00" endPos="205.71">
+        <access length="15" lane="30998338#0_0" pos="1.02"/>
+        <access length="15" lane="314533295#0_0" pos="49.31"/>
+    </busStop>
+    <busStop id="3160041332" name="Schützenplatz" lane="317671620#1_0" friendlyPos="1" lines="2 1" startPos="5.77" endPos="25.87">
+        <access lane="207441375#5_0" pos="105.17"/>
+        <access lane="24692541#2_0" pos="194.37"/>
+    </busStop>
+    <busStop id="3239586703" name="Ludwigstraße" lane="317671620#8_0" friendlyPos="1" lines="2 1" startPos="373.11" endPos="393.11">
+        <access lane="507114919#0_0" pos="30.23"/>
+        <access lane="318774678#6_0" pos="0.84"/>
+    </busStop>
+    <busStop id="3239586704" name="Ludwigstraße" lane="6144278#10_0" friendlyPos="1" lines="1 2" startPos="8.61" endPos="28.66">
+        <access lane="318774678#6_0" pos="2.20"/>
+    </busStop>
+    <busStop id="3239586757" name="Mühlenpfordtstraße" lane="317671620#28_0" friendlyPos="1" lines="2 1" startPos="115.53" endPos="135.63">
+        <access lane="503119834#6_0" pos="3.02"/>
+    </busStop>
+    <busStop id="3239586760" name="Mühlenpfordtstraße" lane="317673532#3_0" friendlyPos="1" lines="1 2" startPos="4.48" endPos="24.48"/>
+    <busStop id="3239587396" name="Hamburger Straße" lane="317671620#25_0" friendlyPos="1" lines="2 1" startPos="2.14" endPos="22.14">
+        <access length="13.97" lane="5139388#3_0" pos="0.00" friendlyPos="1"/>
+    </busStop>
+    <busStop id="335750625" name="Hildesheimer Straße" lane="122164793_2" friendlyPos="1" lines="433 450 560 411 461" startPos="23.00" endPos="38.10"/>
+    <busStop id="335751922" name="Petristraße" lane="24857827#1_2" friendlyPos="1" lines="411" startPos="50.21" endPos="65.21">
+        <access lane="24857827#1_0" pos="58.79"/>
+    </busStop>
+    <busStop id="335752012" name="Petristraße" lane="24857829#2_2" friendlyPos="1" lines="411" startPos="9.61" endPos="24.61">
+        <access lane="24857829#2_0" pos="17.25"/>
+    </busStop>
+    <busStop id="337766463" name="Rudolfplatz" lane="7975439#2_2" friendlyPos="1" lines="419 422 461" startPos="30.16" endPos="45.16">
+        <access lane="7975439#2_0" pos="38.15"/>
+    </busStop>
+    <busStop id="337767290" name="Rudolfplatz" lane="31722493#0_2" friendlyPos="1" lines="450 560 433" startPos="0.00" endPos="15.00">
+        <access lane="31722493#0_0" pos="10.17"/>
+    </busStop>
+    <busStop id="337767975" name="Rudolfplatz" lane="4365024#3_1" lines="411" startPos="10.00" endPos="25.00"/>
+    <busStop id="337767976" name="Rudolfplatz" lane="gneE9_2" lines="411" startPos="93.12" endPos="103.12">
+        <access lane="gneE9_0" pos="94.87"/>
+    </busStop>
+    <busStop id="337769798" name="Rudolfplatz" lane="624411668#2_2" lines="422 429" startPos="15.00" endPos="30.00">
+        <access lane="624411668#2_0" pos="22.49"/>
+    </busStop>
+    <busStop id="337770114" name="Rudolfplatz" lane="48894048_2" friendlyPos="1" lines="433 450 560" startPos="1.00" endPos="16.00">
+        <access lane="48894048_0" pos="5.35"/>
+    </busStop>
+    <busStop id="367891393" name="Maienstraße" lane="106531540#2_2" friendlyPos="1" lines="419 461" startPos="10.91" endPos="25.91">
+        <access lane="106531540#2_0" pos="19.41"/>
+    </busStop>
+    <busStop id="367891451" name="Maienstraße" lane="231661249#1_2" friendlyPos="1" lines="461 422" startPos="1.00" endPos="15.00">
+        <access lane="231661249#1_0" pos="8.46"/>
+    </busStop>
+    <busStop id="367891514" name="Kälberwiese" lane="31722496#6_2" friendlyPos="1" lines="419 422 461" startPos="5.00" endPos="20.00">
+        <access lane="31722496#6_0" pos="12.34"/>
+    </busStop>
+    <busStop id="367891520" name="Kälberwiese" lane="231661249#8_2" friendlyPos="1" lines="461 422" startPos="10.00" endPos="25.00">
+        <access lane="231661249#8_0" pos="17.27"/>
+    </busStop>
+    <busStop id="369313965" name="Cyriaksring" lane="385335099#0_2" lines="419 443 461" startPos="181.52" endPos="191.52"/>
+    <busStop id="3775597857" name="Klinikum Celler Straße" lane="319192876#9_2" friendlyPos="1" lines="416 480" startPos="1.16" endPos="16.16">
+        <access lane="319192876#9_0" pos="8.92"/>
+    </busStop>
+    <busStop id="3790696287" name="Maschstraße" lane="501406798#0_2" lines="450 411 416 480 560" startPos="12.32" endPos="22.32">
+        <access lane="501406798#0_0" pos="14.12"/>
+    </busStop>
+    <busStop id="3794742894" name="Madamenweg" lane="42128193#1_2" friendlyPos="1" lines="461 443" startPos="43.01" endPos="58.01">
+        <access lane="42128193#1_0" pos="61.26"/>
+    </busStop>
+    <busStop id="3794742895" name="Madamenweg" lane="626854754#1_2" friendlyPos="1" lines="419 461 443" startPos="26.52" endPos="41.52">
+        <access lane="626854754#1_0" pos="29.86"/>
+    </busStop>
+    <busStop id="3887568676" name="Hamburger Straße (Steig D)" lane="6144590#1_5" friendlyPos="1" lines="419 433" startPos="10.00" endPos="25.00">
+        <access lane="6144590#1_4" pos="12.95"/>
+        <access lane="318774686_0" pos="65.76"/>
+    </busStop>
+    <busStop id="4089838969" lane="7975424#2_2" friendlyPos="1" lines="480 416" startPos="49.68" endPos="64.68">
+        <access lane="7975424#2_0" pos="58.10"/>
+    </busStop>
+    <busStop id="4420461456" name="Hermannstraße (Steig A)" lane="367772443#1_1" friendlyPos="1" lines="422" startPos="11.53" endPos="26.53"/>
+    <busStop id="4420461459" name="Tuckermannstraße" lane="-gneE26_1" lines="422" startPos="19.25" endPos="29.25"/>
+    <busStop id="4420481309" name="Goslarsche Straße" lane="106531547#0_2" lines="418 443" startPos="34.22" endPos="44.22">
+        <access lane="106531547#0_0" pos="43.08"/>
+    </busStop>
+    <busStop id="4451891810" name="Pfingststraße" lane="8074215#8_1" lines="418" startPos="30.81" endPos="40.81"/>
+    <busStop id="4578931503" name="Maschplatz" lane="462507193_2" lines="429 433" startPos="110.43" endPos="120.43"/>
+    <busStop id="52780772" name="Luisenstraße" lane="23329789#16_0" friendlyPos="1" lines="5 3" startPos="5.00" endPos="25.00">
+        <access length="19.60" lane="10231578#3_0" pos="5.34" friendlyPos="1"/>
+        <access length="20.82" lane="68327844#3_0" pos="140.46" friendlyPos="1"/>
+    </busStop>
+    <busStop id="5509491267" name="Hamburger Straße" lane="51352411_2" friendlyPos="1" lines="433 429" startPos="15.00" endPos="30.00">
+        <access lane="51352411_0" pos="23.46"/>
+    </busStop>
+    <busStop id="5624015120" name="Johannes-Selenka-Platz" lane="59393481#0_2" lines="443 461 419" startPos="1.21" endPos="16.21">
+        <access lane="59393481#0_0" pos="9.77"/>
+    </busStop>
+    <busStop id="59708112" name="Cyriaksring" lane="23329789#17_0" friendlyPos="1" lines="3 5" startPos="110.00" endPos="130.35">
+        <access length="15" lane="171266151#0_0" pos="37.50"/>
+        <access length="15" lane="32755712#0_0" pos="1.06"/>
+    </busStop>
+    <busStop id="59708124" name="Am Jödebrunnen" lane="27571138#1_0" friendlyPos="1" lines="5 3" startPos="1.04" endPos="21.00">
+        <access length="15" lane="325528580#2_0" pos="1.37" friendlyPos="1"/>
+    </busStop>
+    <busStop id="59708130" name="Emsstraße" lane="309123999#0.372_0" friendlyPos="1" lines="3 5" startPos="0.00" endPos="20.00">
+        <access length="20" lane="529421167#0_0" pos="82.42" friendlyPos="1"/>
+        <access length="15" lane="529421168.93_0" pos="0.00" friendlyPos="1"/>
+    </busStop>
+    <busStop id="59708131" name="Emsstraße" lane="27571138#3.374_0" friendlyPos="1" lines="5 3" startPos="0.00" endPos="20.00">
+        <access length="20" lane="529421167#0.294_0" pos="1.64" friendlyPos="1"/>
+        <access length="15" lane="529421168_0" pos="83.15"/>
+    </busStop>
+    <busStop id="59708192" name="Donauknoten" lane="309123999#0_0" friendlyPos="1" lines="3 5" startPos="29.47" endPos="54.47"/>
+    <busStop id="655300197" name="Hamburger Straße" lane="270579796#2_0" lines="2 1" startPos="70.19" endPos="90.19">
+        <access lane="5139386#1_0" pos="91.21"/>
+    </busStop>
+    <busStop id="763361046" name="Ottweilerstrasse" lane="291313154_0" lines="461 560 411 433" startPos="4.06" endPos="14.06">
+        <access lane="-291313154_0" pos="104.76"/>
+    </busStop>
+    <busStop id="80131267" name="Johannes-Selenka-Platz" lane="68327840#2_2" friendlyPos="1" lines="461 443 429" startPos="13.19" endPos="27.26">
+        <access lane="68327840#2_0" pos="20.83"/>
+    </busStop>
+    <busStop id="90582729" name="Bei dem Gerichte" lane="319192876#0_2" friendlyPos="1" lines="416 480" startPos="176.76" endPos="191.76"/>
+    <busStop id="busStop_-577566285_2_56" name="ini_end" lane="-577566285_2" lines="429 433" startPos="53.87" endPos="63.87"/>
+    <busStop id="busStop_577566285_2_55" name="ini_end" lane="577566285_2" lines="419 433" startPos="12.52" endPos="22.52"/>
+</additional>

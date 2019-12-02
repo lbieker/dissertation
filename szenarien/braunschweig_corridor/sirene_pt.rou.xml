@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- generated on 2018-11-26 17:38:21.767000 by $Id$
+  options: -n sirene.net.xml -e 10800 -p 600 <doubleminus>random-begin <doubleminus>seed 42 <doubleminus>ptstops sirene_stops.add.xml <doubleminus>ptlines sirene_ptlines.xml -o sirene_pt.rou.xml <doubleminus>ignore-errors <doubleminus>vtype-prefix pt_ <doubleminus>verbose
+-->
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="pt_bus" vClass="bus"/>
+    <vType id="pt_tram" vClass="tram"/>
+    <vType id="pt_train" vClass="rail"/>
+    <vType id="pt_subway" vClass="rail_urban"/>
+    <vType id="pt_light_rail" vClass="rail_urban"/>
+    <vType id="pt_monorail" vClass="rail"/>
+    <vType id="pt_trolleybus" vClass="bus"/>
+    <vType id="pt_aerialway" vClass="bus"/>
+    <vType id="pt_ferry" vClass="ship"/>
+    <route id="pt_tram_1:0" edges="317673532#3 270579796#2 6144278#7 6144278#8 6144278#10 6144278#21" >
+        <stop busStop="3239586760" duration="30.00" until="34.0"/> <!-- Mühlenpfordtstraße -->
+        <stop busStop="655300197" duration="30.00" until="91.0"/> <!-- Hamburger Straße -->
+        <stop busStop="3239586704" duration="30.00" until="167.0"/> <!-- Ludwigstraße -->
+        <stop busStop="2166464260" duration="30.00" until="293.0"/> <!-- Schützenplatz -->
+    </route>
+    <route id="pt_tram_1:1" edges="317671620#1 317671620#8 317671620#14 317671620#16 317671620#25 317671620#28" >
+        <stop busStop="3160041332" duration="30.00" until="35.0"/> <!-- Schützenplatz -->
+        <stop busStop="3239586703" duration="30.00" until="122.0"/> <!-- Ludwigstraße -->
+        <stop busStop="3239587396" duration="30.00" until="221.0"/> <!-- Hamburger Straße -->
+        <stop busStop="3239586757" duration="30.00" until="317.0"/> <!-- Mühlenpfordtstraße -->
+    </route>
+    <route id="pt_tram_3:0" edges="309123999#0 309123999#0.372 309123999#2 309123999#3 309122505#3 309122505#9 309122505#13" >
+        <stop busStop="59708192" duration="30.00" until="41.0"/> <!-- Donauknoten -->
+        <stop busStop="59708130" duration="30.00" until="131.0"/> <!-- Emsstraße -->
+        <stop busStop="3144419490" duration="30.00" until="205.0"/> <!-- Am Jödebrunnen -->
+        <stop busStop="3144419491" duration="30.00" until="324.0"/> <!-- Cyriaksring -->
+        <stop busStop="3144404371" duration="30.00" until="394.0"/> <!-- Luisenstraße -->
+    </route>
+    <route id="pt_tram_3:1" edges="23329789#16 23329789#17 23329789#22 23329789#27 27571138#1 27571138#3 27571138#3.374" >
+        <stop busStop="52780772" duration="30.00" until="34.0"/> <!-- Luisenstraße -->
+        <stop busStop="59708112" duration="30.00" until="94.0"/> <!-- Cyriaksring -->
+        <stop busStop="59708124" duration="30.00" until="249.0"/> <!-- Am Jödebrunnen -->
+        <stop busStop="59708131" duration="30.00" until="395.0"/> <!-- Emsstraße -->
+    </route>
+    <route id="pt_tram_2:1" edges="317673532#3 270579796#2 6144278#7 6144278#8 6144278#10 6144278#21" >
+        <stop busStop="3239586760" duration="30.00" until="34.0"/> <!-- Mühlenpfordtstraße -->
+        <stop busStop="655300197" duration="30.00" until="115.0"/> <!-- Hamburger Straße -->
+        <stop busStop="3239586704" duration="30.00" until="205.0"/> <!-- Ludwigstraße -->
+        <stop busStop="2166464260" duration="30.00" until="347.0"/> <!-- Schützenplatz -->
+    </route>
+    <route id="pt_tram_2:0" edges="317671620#1 317671620#8 317671620#14 317671620#16 317671620#25 317671620#28" >
+        <stop busStop="3160041332" duration="30.00" until="71.0"/> <!-- Schützenplatz -->
+        <stop busStop="3239586703" duration="30.00" until="206.0"/> <!-- Ludwigstraße -->
+        <stop busStop="3239587396" duration="30.00" until="303.0"/> <!-- Hamburger Straße -->
+        <stop busStop="3239586757" duration="30.00" until="393.0"/> <!-- Mühlenpfordtstraße -->
+    </route>
+    <route id="pt_tram_5:1" edges="23329789#16 23329789#17 23329789#22 23329789#27 27571138#1 27571138#3 27571138#3.374" >
+        <stop busStop="52780772" duration="30.00" until="71.0"/> <!-- Luisenstraße -->
+        <stop busStop="59708112" duration="30.00" until="154.0"/> <!-- Cyriaksring -->
+        <stop busStop="59708124" duration="30.00" until="336.0"/> <!-- Am Jödebrunnen -->
+        <stop busStop="59708131" duration="30.00" until="484.0"/> <!-- Emsstraße -->
+    </route>
+    <route id="pt_tram_5:0" edges="309123999#0 309123999#0.372 309123999#2 309123999#3 309122505#3 309122505#9 309122505#13" >
+        <stop busStop="59708192" duration="30.00" until="69.0"/> <!-- Donauknoten -->
+        <stop busStop="59708130" duration="30.00" until="211.0"/> <!-- Emsstraße -->
+        <stop busStop="3144419490" duration="30.00" until="285.0"/> <!-- Am Jödebrunnen -->
+        <stop busStop="3144419491" duration="30.00" until="402.0"/> <!-- Cyriaksring -->
+        <stop busStop="3144404371" duration="30.00" until="512.0"/> <!-- Luisenstraße -->
+    </route>
+    <route id="pt_bus_480:0" edges="501406798#0 501406797 501406799#0 7975425#0 7975424#2 374169546#1 374169546#7 374169546#9 10522108#3" >
+        <stop busStop="3790696287" duration="30.00" until="37.0"/> <!-- Maschstraße -->
+        <stop busStop="4089838969" duration="30.00" until="110.0"/> <!-- None -->
+        <stop busStop="2304877704" duration="30.00" until="169.0"/> <!-- Klinikum Celler Straße -->
+        <stop busStop="2304877706" duration="30.00" until="240.0"/> <!-- Bei dem Gerichte -->
+    </route>
+    <route id="pt_bus_422:0" edges="367772443#1 290601650#0 290601651#0 290601651#4 375722891#0 31722493#0 gneE10 7975439#2 31722496#1 31722496#1.197 31722496#6 59393478#0 59393478#2 -103495995#0 -106531542#1 gneE26" >
+        <stop busStop="4420461456" duration="30.00" until="40.0"/> <!-- Hermannstraße (Steig A) -->
+        <stop busStop="337766463" duration="30.00" until="204.0"/> <!-- Rudolfplatz -->
+        <stop busStop="367891514" duration="30.00" until="290.0"/> <!-- Kälberwiese -->
+        <stop busStop="-4071760550" duration="30.00" until="388.0"/> <!-- Maienstraße -->
+        <stop busStop="-2381056723" duration="30.00" until="449.0"/> <!-- Tuckermannstraße -->
+    </route>
+    <route id="pt_bus_422:1" edges="-gneE26 106531542#1 103495995#0 231661249#1 231661249#2 231661249#3 231661249#3.63 231661249#8 231661249#8.62 31722495#0 624411668#2 48894048 30128883 7975428#1 7975428#3 375722892#0 290601649#2 -367772443#2" >
+        <stop busStop="4420461459" duration="30.00" until="40.0"/> <!-- Tuckermannstraße -->
+        <stop busStop="367891451" duration="30.00" until="113.0"/> <!-- Maienstraße -->
+        <stop busStop="367891520" duration="30.00" until="242.0"/> <!-- Kälberwiese -->
+        <stop busStop="337769798" duration="30.00" until="330.0"/> <!-- Rudolfplatz -->
+        <stop busStop="-1484563060" duration="30.00" until="426.0"/> <!-- Hermannstraße (Steig B) -->
+    </route>
+    <route id="pt_bus_418:0" edges="-8074215#8 -8074215#6 -8074215#5 -8074215#3 -8074215#2 8078963#2 355309951#0 106531547#0" >
+        <stop busStop="-1021653972" duration="30.00" until="42.0"/> <!-- Pfingststraße -->
+        <stop busStop="-492080041" duration="30.00" until="110.0"/> <!-- Madamenweg -->
+        <stop busStop="4420481309" duration="30.00" until="197.0"/> <!-- Goslarsche Straße -->
+    </route>
+    <route id="pt_bus_480:1" edges="319192876#0 319192876#3 319192876#4 319192876#9 374169552#0 374169548#0 374169553#0 83723985#2 378166624#2 394077003#0 375727027#0" >
+        <stop busStop="90582729" duration="30.00" until="55.0"/> <!-- Bei dem Gerichte -->
+        <stop busStop="3775597857" duration="30.00" until="150.0"/> <!-- Klinikum Celler Straße -->
+        <stop busStop="251044916" duration="30.00" until="269.0"/> <!-- Amalienplatz Weißes Ross -->
+        <stop busStop="1223820160" duration="30.00" until="337.0"/> <!-- Maschstraße -->
+    </route>
+    <route id="pt_bus_450:0" edges="501406798#0 501406797 501406799#0 7975425#0 48861560#2 48861560#3 290601651#0 290601651#4 375722891#0 31722493#0 25624802#2 378048182 378048188#1 10522141#0 10522141#3 8074184#2 30424216#0 122164789#1 32020609#0 32020609#1" >
+        <stop busStop="3790696287" duration="30.00" until="38.0"/> <!-- Maschstraße -->
+        <stop busStop="2708626053" duration="30.00" until="147.0"/> <!-- Amalienplatz Weißes Ross -->
+        <stop busStop="337767290" duration="30.00" until="222.0"/> <!-- Rudolfplatz -->
+        <stop busStop="1204082952" duration="30.00" until="310.0"/> <!-- Hildesheimer Straße -->
+        <stop busStop="241780363" duration="30.00" until="423.0"/> <!-- Luftstraße -->
+    </route>
+    <route id="pt_bus_416:1" edges="501406798#0 501406797 501406799#0 7975425#0 7975424#2 374169546#1 374169546#7 374169546#9 10522108#3 30426790#0 -30426838#4 -30426838#3" >
+        <stop busStop="3790696287" duration="30.00" until="40.0"/> <!-- Maschstraße -->
+        <stop busStop="4089838969" duration="30.00" until="155.0"/> <!-- None -->
+        <stop busStop="2304877704" duration="30.00" until="215.0"/> <!-- Klinikum Celler Straße -->
+        <stop busStop="2304877706" duration="30.00" until="296.0"/> <!-- Bei dem Gerichte -->
+        <stop busStop="-2304877707" duration="30.00" until="347.0"/> <!-- Varrentrappstraße -->
+    </route>
+    <route id="pt_bus_461:1" edges="291313154 10522180#0 122164799#0 8074181#3 122164793 378048176#2 263432785#7 263432785#7.8 378048179#1 7975437#0 7975439#2 31722496#1 31722496#1.197 31722496#6 59393478#0 59393478#2 106531540#2 106531540#2.51 231661245#1 231661245#2 231661245#3 626854754#1 626854754#2 59393481#0 59393481#2 314533296#0 385335099#0" >
+        <stop busStop="763361046" duration="30.00" until="34.0"/> <!-- Ottweilerstrasse -->
+        <stop busStop="335750625" duration="30.00" until="105.0"/> <!-- Hildesheimer Straße -->
+        <stop busStop="337766463" duration="30.00" until="222.0"/> <!-- Rudolfplatz -->
+        <stop busStop="367891514" duration="30.00" until="289.0"/> <!-- Kälberwiese -->
+        <stop busStop="367891393" duration="30.00" until="356.0"/> <!-- Maienstraße -->
+        <stop busStop="3794742895" duration="30.00" until="452.0"/> <!-- Madamenweg -->
+        <stop busStop="5624015120" duration="30.00" until="513.0"/> <!-- Johannes-Selenka-Platz -->
+        <stop busStop="369313965" duration="30.00" until="617.0"/> <!-- Cyriaksring -->
+    </route>
+    <route id="pt_bus_418:1" edges="-106531547#0 -355309951#3 -8078963#7 8074215#2 8074215#3 8074215#5 8074215#6 8074215#8" >
+        <stop busStop="-822623518" duration="30.00" until="40.0"/> <!-- Goslarsche Straße -->
+        <stop busStop="-335811606" duration="30.00" until="117.0"/> <!-- Madamenweg -->
+        <stop busStop="4451891810" duration="30.00" until="246.0"/> <!-- Pfingststraße -->
+    </route>
+    <route id="pt_bus_416:0" edges="277665454#2 277665454#4 gneE11 gneE13.27 319192876#0 319192876#3 319192876#4 319192876#9 374169552#0 374169548#0 374169553#0 83723985#2 378166624#2 394077003#0 375727027#0" >
+        <stop busStop="2304877708" duration="30.00" until="38.0"/> <!-- Varrentrappstraße -->
+        <stop busStop="90582729" duration="30.00" until="127.0"/> <!-- Bei dem Gerichte -->
+        <stop busStop="3775597857" duration="30.00" until="220.0"/> <!-- Klinikum Celler Straße -->
+        <stop busStop="251044916" duration="30.00" until="338.0"/> <!-- Amalienplatz Weißes Ross -->
+        <stop busStop="1223820160" duration="30.00" until="405.0"/> <!-- Maschstraße -->
+    </route>
+    <route id="pt_bus_433:1" edges="577566285 292107968#0 306488581 306488582 6144590#1 37389514#0 37389514#3 462507193 62089686#1 62089686#3 33364787 7975426#0 48861560#2 48861560#3 290601651#0 290601651#4 375722891#0 31722493#0 25624802#2 378048182 378048188#1 10522141#0 10522141#3 8074184#2 8074184#2.37 320858416 -291313154" >
+        <stop busStop="busStop_577566285_2_55" duration="30.00" until="38.0"/> <!-- ini_end -->
+        <stop busStop="3887568676" duration="30.00" until="138.0"/> <!-- Hamburger Straße (Steig D) -->
+        <stop busStop="4578931503" duration="30.00" until="217.0"/> <!-- Maschplatz -->
+        <stop busStop="2708626053" duration="30.00" until="295.0"/> <!-- Amalienplatz Weißes Ross -->
+        <stop busStop="337767290" duration="30.00" until="386.0"/> <!-- Rudolfplatz -->
+        <stop busStop="1204082952" duration="30.00" until="503.0"/> <!-- Hildesheimer Straße -->
+        <stop busStop="-763361137" duration="30.00" until="590.0"/> <!-- Ottweilerstrasse -->
+    </route>
+    <route id="pt_bus_560:1" edges="501406798#0 501406797 501406799#0 7975425#0 48861560#2 48861560#3 290601651#0 290601651#4 375722891#0 31722493#0 25624802#2 378048182 378048188#1 10522141#0 10522141#3 8074184#2 8074184#2.37 320858416 -291313154" >
+        <stop busStop="3790696287" duration="30.00" until="51.0"/> <!-- Maschstraße -->
+        <stop busStop="2708626053" duration="30.00" until="128.0"/> <!-- Amalienplatz Weißes Ross -->
+        <stop busStop="337767290" duration="30.00" until="229.0"/> <!-- Rudolfplatz -->
+        <stop busStop="1204082952" duration="30.00" until="326.0"/> <!-- Hildesheimer Straße -->
+        <stop busStop="-763361137" duration="30.00" until="411.0"/> <!-- Ottweilerstrasse -->
+    </route>
+    <route id="pt_bus_450:1" edges="-32020609#1 -32020609#0 8074181#2 8074181#3 122164793 378048176#2 263432785#7 263432785#7.8 378048179#1 7975437#0 4365024#2 624411668#2 48894048 30128883 7975428#1 7975428#3 375722892#0 135155217#1 83723985#2 378166624#2 394077003#0 375727027#0" >
+        <stop busStop="-4319427728" duration="30.00" until="38.0"/> <!-- Luftstraße -->
+        <stop busStop="335750625" duration="30.00" until="175.0"/> <!-- Hildesheimer Straße -->
+        <stop busStop="337770114" duration="30.00" until="306.0"/> <!-- Rudolfplatz -->
+        <stop busStop="251044916" duration="30.00" until="439.0"/> <!-- Amalienplatz Weißes Ross -->
+        <stop busStop="1223820160" duration="30.00" until="505.0"/> <!-- Maschstraße -->
+    </route>
+    <route id="pt_bus_433:0" edges="291313154 10522180#0 122164799#0 8074181#3 122164793 378048176#2 263432785#7 263432785#7.8 378048179#1 7975437#0 4365024#2 624411668#2 48894048 30128883 7975428#1 7975428#3 375722892#0 135155217#1 299910129#2 299910129#2.39 299910129#3 299910129#4 299910129#7 299910129#7.6 375862677#2 375862677#4 375862677#7 318774686 51352411 318774679#0 292107965#1 -577566285" >
+        <stop busStop="763361046" duration="30.00" until="36.0"/> <!-- Ottweilerstrasse -->
+        <stop busStop="335750625" duration="30.00" until="148.0"/> <!-- Hildesheimer Straße -->
+        <stop busStop="337770114" duration="30.00" until="280.0"/> <!-- Rudolfplatz -->
+        <stop busStop="251044906" duration="30.00" until="414.0"/> <!-- Amalienplatz Weißes Ross -->
+        <stop busStop="5509491267" duration="30.00" until="596.0"/> <!-- Hamburger Straße -->
+        <stop busStop="busStop_-577566285_2_56" duration="30.00" until="693.0"/> <!-- ini_end -->
+    </route>
+    <route id="pt_bus_560:0" edges="291313154 10522180#0 122164799#0 8074181#3 122164793 378048176#2 263432785#7 263432785#7.8 378048179#1 7975437#0 4365024#2 624411668#2 48894048 30128883 7975428#1 7975428#3 375722892#0 135155217#1 83723985#2 378166624#2 394077003#0 375727027#0" >
+        <stop busStop="763361046" duration="30.00" until="35.0"/> <!-- Ottweilerstrasse -->
+        <stop busStop="335750625" duration="30.00" until="133.0"/> <!-- Hildesheimer Straße -->
+        <stop busStop="337770114" duration="30.00" until="267.0"/> <!-- Rudolfplatz -->
+        <stop busStop="251044916" duration="30.00" until="397.0"/> <!-- Amalienplatz Weißes Ross -->
+        <stop busStop="1223820160" duration="30.00" until="464.0"/> <!-- Maschstraße -->
+    </route>
+    <route id="pt_bus_461:0" edges="385335098#0 385335098#1 314533294#0 32905529#0 68327840#2 217194754#2 42128193#1 626854755#0 626854755#2 559569229#0 559569229#0.143 231661249#1 231661249#2 231661249#3 231661249#3.63 231661249#8 231661249#8.62 31722495#0 624411668#2 31722494#3 25624802#2 378048182 378048188#1 10522141#0 10522141#3 8074184#2 8074184#2.37 320858416 -291313154" >
+        <stop busStop="272855681" duration="30.00" until="69.0"/> <!-- Cyriaksring -->
+        <stop busStop="80131267" duration="30.00" until="203.0"/> <!-- Johannes-Selenka-Platz -->
+        <stop busStop="3794742894" duration="30.00" until="286.0"/> <!-- Madamenweg -->
+        <stop busStop="367891451" duration="30.00" until="444.0"/> <!-- Maienstraße -->
+        <stop busStop="367891520" duration="30.00" until="536.0"/> <!-- Kälberwiese -->
+        <stop busStop="1204082952" duration="30.00" until="665.0"/> <!-- Hildesheimer Straße -->
+        <stop busStop="-763361137" duration="30.00" until="739.0"/> <!-- Ottweilerstrasse -->
+    </route>
+    <route id="pt_bus_443:1" edges="-106531547#0 -355309951#3 -8078963#7 626854754#1 626854754#2 59393481#0 59393481#2 314533296#0 385335099#0" >
+        <stop busStop="-822623518" duration="30.00" until="39.0"/> <!-- Goslarsche Straße -->
+        <stop busStop="3794742895" duration="30.00" until="150.0"/> <!-- Madamenweg -->
+        <stop busStop="5624015120" duration="30.00" until="230.0"/> <!-- Johannes-Selenka-Platz -->
+        <stop busStop="369313965" duration="30.00" until="312.0"/> <!-- Cyriaksring -->
+    </route>
+    <route id="pt_bus_443:0" edges="385335098#0 385335098#1 314533294#0 32905529#0 68327840#2 217194754#2 42128193#1 8078963#2 355309951#0 106531547#0" >
+        <stop busStop="272855681" duration="30.00" until="37.0"/> <!-- Cyriaksring -->
+        <stop busStop="80131267" duration="30.00" until="158.0"/> <!-- Johannes-Selenka-Platz -->
+        <stop busStop="3794742894" duration="30.00" until="221.0"/> <!-- Madamenweg -->
+        <stop busStop="4420481309" duration="30.00" until="360.0"/> <!-- Goslarsche Straße -->
+    </route>
+    <route id="pt_bus_411:0" edges="291313154 10522180#0 122164799#0 8074181#3 122164793 378048176#2 263432785#7 263432785#7.8 378048179#1 7975437#0 4365024#2 4365024#3 4365024#7 24857827#0 24857827#1 413718443#1 526422259#0 375727027#0" >
+        <stop busStop="763361046" duration="30.00" until="35.0"/> <!-- Ottweilerstrasse -->
+        <stop busStop="335750625" duration="30.00" until="146.0"/> <!-- Hildesheimer Straße -->
+        <stop busStop="337767975" duration="30.00" until="278.0"/> <!-- Rudolfplatz -->
+        <stop busStop="335751922" duration="30.00" until="356.0"/> <!-- Petristraße -->
+        <stop busStop="1223820160" duration="30.00" until="464.0"/> <!-- Maschstraße -->
+    </route>
+    <route id="pt_bus_419:0" edges="577566285 292107968#0 306488581 306488582 6144590#1 37389514#0 37389514#3 462507193 62089686#1 62089686#3 33364787 7975426#0 48861560#2 48861560#3 290601651#0 290601651#4 375722891#0 31722493#0 gneE10 7975439#2 31722496#1 31722496#1.197 31722496#6 59393478#0 59393478#2 106531540#2 106531540#2.51 231661245#1 231661245#2 231661245#3 626854754#1 626854754#2 59393481#0 59393481#2 314533296#0 385335099#0" >
+        <stop busStop="busStop_577566285_2_55" duration="30.00" until="37.0"/> <!-- ini_end -->
+        <stop busStop="3887568676" duration="30.00" until="128.0"/> <!-- Hamburger Straße (Steig D) -->
+        <stop busStop="4578931503" duration="30.00" until="207.0"/> <!-- Maschplatz -->
+        <stop busStop="2708626053" duration="30.00" until="285.0"/> <!-- Amalienplatz Weißes Ross -->
+        <stop busStop="337766463" duration="30.00" until="381.0"/> <!-- Rudolfplatz -->
+        <stop busStop="367891514" duration="30.00" until="466.0"/> <!-- Kälberwiese -->
+        <stop busStop="367891393" duration="30.00" until="556.0"/> <!-- Maienstraße -->
+        <stop busStop="3794742895" duration="30.00" until="647.0"/> <!-- Madamenweg -->
+        <stop busStop="5624015120" duration="30.00" until="734.0"/> <!-- Johannes-Selenka-Platz -->
+        <stop busStop="369313965" duration="30.00" until="831.0"/> <!-- Cyriaksring -->
+    </route>
+    <route id="pt_bus_429:0" edges="385335098#0 385335098#1 314533294#0 32905529#0 68327840#2 217194754#2 42128193#1 626854755#0 626854755#2 559569229#0 559569229#0.143 231661249#1 231661249#2 231661249#3 231661249#3.63 231661249#8 231661249#8.62 31722495#0 624411668#2 48894048 30128883 7975428#1 7975428#3 375722892#0 135155217#1 299910129#2 299910129#2.39 299910129#3 299910129#4 299910129#7 299910129#7.6 375862677#2 375862677#4 375862677#7 318774686 51352411 318774679#0 292107965#1 -577566285" >
+        <stop busStop="272855681" duration="30.00" until="39.0"/> <!-- Cyriaksring -->
+        <stop busStop="80131267" duration="30.00" until="167.0"/> <!-- Johannes-Selenka-Platz -->
+        <stop busStop="3794742894" duration="30.00" until="231.0"/> <!-- Madamenweg -->
+        <stop busStop="367891451" duration="30.00" until="362.0"/> <!-- Maienstraße -->
+        <stop busStop="367891520" duration="30.00" until="454.0"/> <!-- Kälberwiese -->
+        <stop busStop="337770114" duration="30.00" until="582.0"/> <!-- Rudolfplatz -->
+        <stop busStop="251044906" duration="30.00" until="659.0"/> <!-- Amalienplatz Weißes Ross -->
+        <stop busStop="5509491267" duration="30.00" until="816.0"/> <!-- Hamburger Straße -->
+        <stop busStop="busStop_-577566285_2_56" duration="30.00" until="915.0"/> <!-- ini_end -->
+    </route>
+    <route id="pt_bus_411:1" edges="501406798#0 501406797 501406799#0 7975425#0 299910129#2 299910129#2.39 375862675#2 -483465545#0 -483465546 378166624#2 394077003#0 -526422259#1 -413718443#6 24857829#2 gneE9 31722494#1 31722494#3 25624802#2 378048182 378048188#1 10522141#0 10522141#3 8074184#2 8074184#2.37 320858416 -291313154" >
+        <stop busStop="3790696287" duration="30.00" until="38.0"/> <!-- Maschstraße -->
+        <stop busStop="335752012" duration="30.00" until="248.0"/> <!-- Petristraße -->
+        <stop busStop="337767976" duration="30.00" until="307.0"/> <!-- Rudolfplatz -->
+        <stop busStop="1204082952" duration="30.00" until="456.0"/> <!-- Hildesheimer Straße -->
+        <stop busStop="-763361137" duration="30.00" until="577.0"/> <!-- Ottweilerstrasse -->
+    </route>
+    <flow id="pt_tram_1:0" type="pt_tram" route="pt_tram_1:0" begin="52.0" end="10852.0" period="600" line="1:0" >
+        <param key="name" value="Tram 1: Stöckheim =&gt; Wenden"/>
+        <param key="completeness" value="0.29"/>
+    </flow>
+    <flow id="pt_tram_1:1" type="pt_tram" route="pt_tram_1:1" begin="55.0" end="10855.0" period="600" line="1:1" >
+        <param key="name" value="Tram 1: Wenden =&gt; Stöckheim"/>
+        <param key="completeness" value="0.29"/>
+    </flow>
+    <flow id="pt_tram_3:0" type="pt_tram" route="pt_tram_3:0" begin="3.0" end="10803.0" period="600" line="3:0" >
+        <param key="name" value="Tram 3: Weststadt =&gt; Volkmarode"/>
+        <param key="completeness" value="0.46"/>
+    </flow>
+    <flow id="pt_tram_3:1" type="pt_tram" route="pt_tram_3:1" begin="15.0" end="10815.0" period="600" line="3:1" >
+        <param key="name" value="Tram 3: Volkmarode =&gt; Weststadt"/>
+        <param key="completeness" value="0.42"/>
+    </flow>
+    <flow id="pt_tram_2:1" type="pt_tram" route="pt_tram_2:1" begin="93.0" end="10893.0" period="900" line="2:1" >
+        <param key="name" value="Tram 2: Heidberg =&gt; Siegfriedviertel (über Leisewitzstraße)"/>
+        <param key="completeness" value="0.59"/>
+    </flow>
+    <flow id="pt_tram_2:0" type="pt_tram" route="pt_tram_2:0" begin="59.0" end="10859.0" period="900" line="2:0" >
+        <param key="name" value="Tram 2: Siegfriedviertel =&gt; Heidberg (über Leisewitzstraße)"/>
+        <param key="completeness" value="0.59"/>
+    </flow>
+    <flow id="pt_tram_5:1" type="pt_tram" route="pt_tram_5:1" begin="18.0" end="10818.0" period="600" line="5:1" >
+        <param key="name" value="Tram 5: Hauptbahnhof =&gt; Broitzem"/>
+        <param key="completeness" value="0.58"/>
+    </flow>
+    <flow id="pt_tram_5:0" type="pt_tram" route="pt_tram_5:0" begin="15.0" end="10815.0" period="600" line="5:0" >
+        <param key="name" value="Tram 5: Broitzem =&gt; Hauptbahnhof"/>
+        <param key="completeness" value="0.58"/>
+    </flow>
+    <flow id="pt_bus_480:0" type="pt_bus" route="pt_bus_480:0" begin="353.0" end="11153.0" period="3600" line="480:0" >
+        <param key="name" value="Bus 480: Braunschweig Rathaus =&gt; Groß Schwülper"/>
+        <param key="completeness" value="0.45"/>
+    </flow>
+    <flow id="pt_bus_422:0" type="pt_bus" route="pt_bus_422:0" begin="204.0" end="11004.0" period="1800" line="422:0" >
+        <param key="name" value="Bus 422: Lehndorf =&gt; Bebelhof"/>
+        <param key="completeness" value="0.47"/>
+    </flow>
+    <flow id="pt_bus_422:1" type="pt_bus" route="pt_bus_422:1" begin="253.0" end="11053.0" period="1800" line="422:1" >
+        <param key="name" value="Bus 422: Bebelhof =&gt; Lehndorf"/>
+        <param key="completeness" value="0.52"/>
+    </flow>
+    <flow id="pt_bus_418:0" type="pt_bus" route="pt_bus_418:0" begin="485.0" end="11285.0" period="1800" line="418:0" >
+        <param key="name" value="Bus 418: Lamme =&gt; Riddagshausen"/>
+        <param key="completeness" value="0.38"/>
+    </flow>
+    <flow id="pt_bus_480:1" type="pt_bus" route="pt_bus_480:1" begin="362.0" end="11162.0" period="3600" line="480:1" >
+        <param key="name" value="Bus 480: Groß Schwülper =&gt; Braunschweig Rathaus"/>
+        <param key="completeness" value="0.48"/>
+    </flow>
+    <flow id="pt_bus_450:0" type="pt_bus" route="pt_bus_450:0" begin="303.0" end="11103.0" period="1800" line="450:0" >
+        <param key="name" value="Bus 450: Braunschweig Rathaus =&gt; Vechelde"/>
+        <param key="completeness" value="0.50"/>
+    </flow>
+    <flow id="pt_bus_416:1" type="pt_bus" route="pt_bus_416:1" begin="389.0" end="11189.0" period="900" line="416:1" >
+        <param key="name" value="Bus 416: Kralenriede =&gt; Völkenrode"/>
+        <param key="completeness" value="0.37"/>
+    </flow>
+    <flow id="pt_bus_461:1" type="pt_bus" route="pt_bus_461:1" begin="133.0" end="10933.0" period="1800" line="461:1" >
+        <param key="name" value="Bus 461: PTB =&gt; Hauptbahnhof"/>
+        <param key="completeness" value="0.57"/>
+    </flow>
+    <flow id="pt_bus_418:1" type="pt_bus" route="pt_bus_418:1" begin="508.0" end="11308.0" period="1800" line="418:1" >
+        <param key="name" value="Bus 418: Riddagshausen =&gt; Lamme"/>
+        <param key="completeness" value="0.39"/>
+    </flow>
+    <flow id="pt_bus_416:0" type="pt_bus" route="pt_bus_416:0" begin="383.0" end="11183.0" period="900" line="416:0" >
+        <param key="name" value="Bus 416: Völkenrode =&gt; Kralenriede"/>
+        <param key="completeness" value="0.39"/>
+    </flow>
+    <flow id="pt_bus_433:1" type="pt_bus" route="pt_bus_433:1" begin="201.0" end="11001.0" period="1800" line="433:1" >
+        <param key="name" value="Bus 433: Hondelage =&gt; Völkenrode"/>
+        <param key="completeness" value="0.16"/>
+    </flow>
+    <flow id="pt_bus_560:1" type="pt_bus" route="pt_bus_560:1" begin="418.0" end="11218.0" period="3600" line="560:1" >
+        <param key="name" value="Bus 560: Braunschweig Rathaus =&gt; Wipshausen"/>
+        <param key="completeness" value="0.31"/>
+    </flow>
+    <flow id="pt_bus_450:1" type="pt_bus" route="pt_bus_450:1" begin="326.0" end="11126.0" period="1800" line="450:1" >
+        <param key="name" value="Bus 450: Vechelde =&gt; Braunschweig Rathaus"/>
+        <param key="completeness" value="0.46"/>
+    </flow>
+    <flow id="pt_bus_433:0" type="pt_bus" route="pt_bus_433:0" begin="172.0" end="10972.0" period="1800" line="433:0" >
+        <param key="name" value="Bus 433: Völkenrode =&gt; Hondelage"/>
+        <param key="completeness" value="0.16"/>
+    </flow>
+    <flow id="pt_bus_560:0" type="pt_bus" route="pt_bus_560:0" begin="406.0" end="11206.0" period="3600" line="560:0" >
+        <param key="name" value="Bus 560: Wipshausen =&gt; Braunschweig Rathaus"/>
+        <param key="completeness" value="0.36"/>
+    </flow>
+    <flow id="pt_bus_461:0" type="pt_bus" route="pt_bus_461:0" begin="139.0" end="10939.0" period="1800" line="461:0" >
+        <param key="name" value="Bus 461: Hauptbahnhof =&gt; PTB"/>
+        <param key="completeness" value="0.55"/>
+    </flow>
+    <flow id="pt_bus_443:1" type="pt_bus" route="pt_bus_443:1" begin="574.0" end="11374.0" period="1800" line="443:1" >
+        <param key="name" value="Bus 443: Querum =&gt; Donauknoten"/>
+        <param key="completeness" value="0.32"/>
+    </flow>
+    <flow id="pt_bus_443:0" type="pt_bus" route="pt_bus_443:0" begin="535.0" end="11335.0" period="1800" line="443:0" >
+        <param key="name" value="Bus 443: Donauknoten =&gt; Querum"/>
+        <param key="completeness" value="0.35"/>
+    </flow>
+    <flow id="pt_bus_411:0" type="pt_bus" route="pt_bus_411:0" begin="445.0" end="11245.0" period="1800" line="411:0" >
+        <param key="name" value="Bus 411: Lamme =&gt; Südstadt"/>
+        <param key="completeness" value="0.32"/>
+    </flow>
+    <flow id="pt_bus_419:0" type="pt_bus" route="pt_bus_419:0" begin="119.0" end="10919.0" period="600" line="419:0" >
+        <param key="name" value="Bus 419: Hauptbahnhof =&gt; Hauptbahnhof"/>
+        <param key="completeness" value="0.37"/>
+    </flow>
+    <flow id="pt_bus_429:0" type="pt_bus" route="pt_bus_429:0" begin="131.0" end="10931.0" period="600" line="429:0" >
+        <param key="name" value="Bus 429: Hauptbahnhof =&gt; Hauptbahnhof"/>
+        <param key="completeness" value="0.16"/>
+    </flow>
+    <flow id="pt_bus_411:1" type="pt_bus" route="pt_bus_411:1" begin="483.0" end="11283.0" period="1800" line="411:1" >
+        <param key="name" value="Bus 411: Südstadt =&gt; Lamme"/>
+        <param key="completeness" value="0.20"/>
+    </flow>
+    
+<routeDistribution id="routedist1">
+<route id="ev" edges="326114792#1 -276159044 -238863539#3 462507193 62089686#1 62089686#3 33364787 7975426#0 48861560#2 48861560#3 290601651#0 290601651#4 375722891#0 31722493#0 gneE10 7975439#2 31722496#1 31722496#1.197 31722496#6 59393478#0 59393478#2 106531540#2 106531540#2.51 231661245#1 231661245#2 231661245#3 626854754#1 626854754#2 59393481#0 59393481#2 314533296#0 385335099#0"/>
+</routeDistribution>
+
+<routeDistribution id="additional">
+<route id="ev" edges="37389514#0 37389514#3 462507193 62089686#1 62089686#3 33364787 7975426#0 48861560#2 48861560#3 290601651#0 290601651#4 375722891#0 31722493#0 gneE10 7975439#2 31722496#1 31722496#1.197 31722496#6 59393478#0 59393478#2 106531540#2 106531540#2.51 231661245#1 231661245#2 231661245#3 626854754#1 626854754#2 59393481#0 59393481#2 314533296#0 385335099#0"/>
+</routeDistribution>
+
+ 
+<!--flow id="add" color="1,1,0"  begin="0" end= "7200" vehsPerHour="800" type="c" route="additional"/-->
+
+</routes>

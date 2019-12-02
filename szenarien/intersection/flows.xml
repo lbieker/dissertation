@@ -1,0 +1,25 @@
+<vehicles>
+
+<routeDistribution id="routedist1">
+   <route id="1" edges="2i 3o"/>
+   <route id="2" edges="2i 1o"/>
+   <route id="3" edges="2i 4o"/>   
+   
+<route id="4" edges="3i 1o"/>
+<route id="5" edges="3i 2o"/>
+<route id="6" edges="3i 4o"/>
+
+   <route id="7" edges="1i 2o"/>
+   <route id="8" edges="1i 3o"/>
+   <route id="9" edges="1i 4o"/>
+   
+<route id="10" edges="4i 1o"/>
+<route id="11" edges="4i 2o"/>
+<route id="12" edges="4i 3o"/>
+
+</routeDistribution>
+  
+ 
+<flow id="pkw" color="1,1,0"  begin="0" end= "3600" vehsPerHour="1" type="c" route="routedist1"/>
+<!--flow id="pkw2" color="1,1,0"  begin="0" end= "7200" period="5" type="c" route="routedist2"/-->
+</vehicles>

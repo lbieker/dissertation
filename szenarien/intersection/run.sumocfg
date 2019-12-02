@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="net.net.xml"/>
+        <route-files value="flows.xml"/> <!--"traces/miv_140814_16_17.rou.xml"/--><!--,traces/vru_170216_17_18.rou.xml"/-->
+        <additional-files value="vtypes.add.xml"/>
+    </input>
+    
+
+    <time>
+        <end vale="3600"/>
+    </time>
+    <report>
+        <duration-log.statistics value="true"/>
+        <no-step-log value="true"/>
+        <log value="log"/>
+    </report>
+
+</configuration>
